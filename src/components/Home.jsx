@@ -38,7 +38,7 @@ const Home = () => {
                     <div className='flex gap-x-10 mx-auto justify-start items-center py-4 mt-9 lg:hidden bg-red-500 px-8 rounded-3xl'>
                         <a href="https://www.linkedin.com/in/shashwat-dwivedi-563a511aa/" target='_blank' ><GrLinkedin className='cursor-pointer hover:scale-150 duration-300 shadow-md rounded-full' size={20} /> </a>
 
-                        <a href="https://github.com/Shashwat253" target='_blank'><FaGithub className='cursor-pointer hover:scale-150 duration-300 shadow-md rounded-full' size={20} /></a>
+                        <a href="https://github.com/shashwatthisside" target='_blank'><FaGithub className='cursor-pointer hover:scale-150 duration-300 shadow-md rounded-full' size={20} /></a>
 
                         <a href="mailto:itsshashwatdwivedi" target='_blank'><MdEmail className='cursor-pointer hover:scale-150 duration-300 shadow-md rounded-ful' size={20} /></a>
 
