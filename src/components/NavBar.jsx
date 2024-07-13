@@ -13,7 +13,7 @@ const NavBar = () => {
                 <li className='cursor-pointer font-medium text-gray-300 text-lg capitalize hover:scale-125 duration-200 hover:text-red-500 gap-9 px-4 '><Link to='about' smooth duration={800}>ABOUT</Link></li>
                 <li className='cursor-pointer font-medium text-gray-300 text-lg capitalize hover:scale-125 duration-200 hover:text-red-500 gap-9 px-4 '><Link to='projects' smooth duration={800}>PROJECTS</Link></li>
                 <li className='cursor-pointer font-medium text-gray-300 text-lg capitalize hover:scale-125 duration-200 hover:text-red-500 gap-9 px-4 '><Link to='technologies' smooth duration={800}>TECHNOLOGIES</Link></li>
-                <li className='cursor-pointer font-medium text-gray-300 text-lg capitalize hover:scale-125 duration-200 hover:text-red-500 gap-9 px-4 '><Link to='contact' smooth duration={800}>CONTACT</Link></li>
+                <li className='cursor-pointer font-medium text-gray-300 text-lg capitalize hover:scale-125 duration-200 hover:text-red-500 gap-9 px-4 '><Link to='Contact' smooth duration={800}>CONTACT</Link></li>
             </ul>
             <div onClick={() => { setNav(!nav) }} className='mr-5 cursor-pointer z-10 md:hidden '>
                 {nav ? <FaTimes size={25} className='mr-10' /> : <FaBars size={25} className='mr-10' />}
@@ -26,7 +26,7 @@ const NavBar = () => {
                         <li className='capitalize cursor-pointer text-2xl hover:scale-125 duration-200 gap-3 text-gray-300 hover:text-red-500 '><Link onClick={() => setNav(!nav)} to='about' smooth duration={800}>ABOUT</Link></li>
                         <li className='capitalize cursor-pointer text-2xl hover:scale-125 duration-200 gap-3 text-gray-300 hover:text-red-500 '><Link onClick={() => setNav(!nav)} to='projects' smooth duration={800}>PROJECTS</Link></li>
                         <li className='capitalize cursor-pointer text-2xl hover:scale-125 duration-200 gap-3 text-gray-300 hover:text-red-500 '><Link onClick={() => setNav(!nav)} to='technologies' smooth duration={800}>TECHNOLOGIES</Link></li>
-                        <li className='capitalize cursor-pointer text-2xl hover:scale-125 duration-200 gap-3 text-gray-300 hover:text-red-500 '><Link onClick={() => setNav(!nav)} to='contact' smooth duration={800}>CONTACT</Link></li>
+                        <li className='capitalize cursor-pointer text-2xl hover:scale-125 duration-200 gap-3 text-gray-300 hover:text-red-500 '><Link onClick={() => setNav(!nav)} to='Contact' smooth duration={800}>CONTACT</Link></li>
                     </ul>
                 )
             }

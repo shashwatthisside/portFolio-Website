@@ -22,7 +22,7 @@ const Home = () => {
                         {''}
                         <span className='text-red-500 text-2xl py-4 font-bold lg:text-4xl '>
                             <Typewriter
-                                words={['Shashwat Dwivedi', 'a Front-End Developer']}
+                                words={['Shashwat', 'a Front-End Developer']}
                                 loop={true}
                                 cursor={true}
                                 cursorStyle='_'
