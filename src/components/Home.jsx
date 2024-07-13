@@ -48,7 +48,7 @@ const Home = () => {
 
                         <a href="mailto:itsshashwatdwivedi" target='_blank'><MdEmail className='cursor-pointer hover:scale-150 duration-300 shadow-md rounded-ful' size={20} /></a>
 
-                        <a href="#" download="#"><BsFillPersonLinesFill className='cursor-pointer hover:scale-150 duration-300 shadow-md rounded-ful' size={20} /></a>
+                        <a href="/Shashwat_s_Resume.pdf" download="Shashwat Front-end Resume" target='_blank'><BsFillPersonLinesFill className='cursor-pointer hover:scale-150 duration-300 shadow-md rounded-ful' size={20} /></a>
                     </div>
                 </div>
 
