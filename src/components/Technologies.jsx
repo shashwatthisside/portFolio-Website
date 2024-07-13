@@ -83,10 +83,10 @@ const Technologies = () => {
             className="bg-gradient-to-b from-gray-800 to-black w-full h-[1000px]"
         >
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-                <div className='text-5xl flex justify-center gap-4 items-center font-bold text-red-500'>
-                    <h1 className=' border-b-4 border-dotted'>Technologies</h1>
+                <div className=' text-5xl pt-24 flex flex-col justify-center items-center font-bold text-red-500'>
+                    <h1 className='border-b-4 border-dotted px-6 py-2'>Technology <span className='animate-pulse' >👨‍💻</span> </h1>
                 </div>
-                <p className="mt-4">Technologies I've worked with</p>
+                <p className="mt-8">Technologies I've worked with</p>
 
                 <div className=" mt-10 w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
                     {techs.map(({ id, src, title, style }) => (

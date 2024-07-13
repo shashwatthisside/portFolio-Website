@@ -14,10 +14,10 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = () => {
     return (
-        <div name="about" className='bg-gradient-to-b from-gray-800 to-black h-[2500px] md:h-[1700px] w-full'>
+        <div name="about" className='bg-gradient-to-b from-gray-800 to-black h-[2300px] md:h-[1700px] w-full'>
 
             <div className=' text-5xl pt-24 flex flex-col justify-center items-center font-bold text-red-500'>
-                <h1 className='border-b-4 border-dotted px-6 py-2'>About Me <span className='animate-pulse' >👇</span> </h1>
+                <h1 className='border-b-4 border-dotted px-6 py-2'>About Me <span className='animate-pulse' >😃</span> </h1>
             </div>
 
             <ScrollAnimation animateIn="fadeIn">
@@ -35,7 +35,7 @@ const About = () => {
             <div className=' w-full md:grid md:grid-cols-2 md:px-10'>
                 {/* !st Card */}
                 <ScrollAnimation animateIn='fadeInLeft' duration={1}>
-                    <div className='mt-24 mx-10 rounded-2xl bg-gray-300 hover:scale-105 duration-300'>
+                    <div className='mt-24 mx-10 rounded-2xl bg-gray-300 hover:scale-105 duration-300 shadow-lg shadow-red-500'>
                         <div className=' bg-gradient-to-r from-blue-500 to-red-500 h-1/3 flex justify-center items-center flex-col rounded-b-2xl
                  rounded-t-2xl'>
                             <HiAcademicCap color='black' size={70} />
@@ -60,7 +60,7 @@ const About = () => {
 
                 {/* 2nd Card */}
                 <ScrollAnimation animateIn='fadeInRight' duration={1}>
-                    <div className='mt-10 md:mt-24 mx-10 rounded-2xl bg-gray-300 md:overflow-auto hover:scale-105 duration-300'>
+                    <div className='mt-10 md:mt-24 mx-10 rounded-2xl bg-gray-300 md:overflow-auto hover:scale-105 duration-300 shadow-lg shadow-red-500'>
                         <div className=' bg-gradient-to-r from-blue-500 to-red-500 h-1/3 flex justify-center items-center flex-col rounded-b-2xl
                  rounded-t-2xl'>
                             <GrCertificate color='black' size={70} className='mt-2' />
@@ -94,7 +94,7 @@ const About = () => {
                 </ScrollAnimation>
                 {/* 3rd Card */}
                 <ScrollAnimation animateIn='fadeInLeft' duration={1}>
-                    <div className='mt-10 mx-10 rounded-2xl bg-gray-300 overflow-auto hover:scale-105 duration-300'>
+                    <div className='mt-10 mx-10 rounded-2xl bg-gray-300 overflow-auto hover:scale-105 duration-300 shadow-lg shadow-red-500'>
                         <div className=' bg-gradient-to-r from-blue-500 to-red-500 h-1/3 flex justify-center items-center flex-col rounded-b-2xl
                  rounded-t-2xl'>
                             < AiOutlineAim color='black' size={70} />
@@ -110,7 +110,7 @@ const About = () => {
                             <div className='flex items-center gap-1 mt-3'>
                                 <TbArrowBadgeRightFilled size={20} /><h2 className='font-bold'>Frameworks & Libraries : </h2>
                             </div>
-                            <p>React.js, Tailwind_Css, Node.js, Express.js, REST_API</p>
+                            <p>React.js, Redux, Tailwind_Css, Node.js, Express.js, REST_API</p>
                             <div className='flex items-center gap-1 mt-3'>
                                 <TbArrowBadgeRightFilled size={20} /><h2 className='font-bold'>Database : </h2>
                             </div>
@@ -140,7 +140,7 @@ const About = () => {
 
                 {/* 4th Card */}
                 <ScrollAnimation animateIn='fadeInRight' duration={1}>
-                    <div className='mt-10 mx-10 rounded-2xl bg-gray-300 hover:scale-105 duration-300'>
+                    <div className='mt-10 mx-10 rounded-2xl bg-gray-300 hover:scale-105 duration-300 shadow-lg shadow-red-500'>
                         <div className=' bg-gradient-to-r from-blue-500 to-red-500 h-1/3 flex justify-center items-center flex-col rounded-b-2xl
                  rounded-t-2xl'>
                             <BsPersonWorkspace color='black' size={70} />

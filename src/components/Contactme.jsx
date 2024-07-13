@@ -4,13 +4,13 @@ const Contact = () => {
     return (
         <div
             name="contact"
-            className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+            className="w-full h-[800px] bg-gradient-to-b from-black to-gray-800 p-4 text-white"
         >
             <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-                        Contact
-                    </p>
+                    <div className=' text-5xl pt-24 flex flex-col justify-center items-center font-bold text-red-500'>
+                        <h1 className='border-b-4 border-dotted px-6 py-2'>Contact <span className='animate-pulse' >🤝</span> </h1>
+                    </div>
                     <p className="py-6">Submit the form below to get in touch with me</p>
                 </div>
 
