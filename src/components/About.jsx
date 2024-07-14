@@ -14,7 +14,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = () => {
     return (
-        <div name="about" className='bg-gradient-to-b from-gray-800 to-black h-[2300px] md:h-[1700px] w-full'>
+        <div name="about" className='bg-gradient-to-b from-gray-800 py-24 to-black h-[2500px] md:h-[1700px] w-full'>
 
             <div className=' text-5xl pt-24 flex flex-col justify-center items-center font-bold text-red-500'>
                 <h1 className='border-b-4 border-dotted px-6 py-2'>About Me <span className='animate-pulse' >😃</span> </h1>

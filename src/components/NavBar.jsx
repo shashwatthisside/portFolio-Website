@@ -15,7 +15,7 @@ const NavBar = () => {
                 <li className='cursor-pointer font-medium text-gray-300 text-lg capitalize hover:scale-125 duration-200 hover:text-red-500 gap-9 px-4 '><Link to='technologies' smooth duration={800}>TECHNOLOGIES</Link></li>
                 <li className='cursor-pointer font-medium text-gray-300 text-lg capitalize hover:scale-125 duration-200 hover:text-red-500 gap-9 px-4 '><Link to='Contact' smooth duration={800}>CONTACT</Link></li>
             </ul>
-            <div onClick={() => { setNav(!nav) }} className='mr-5 cursor-pointer z-10 md:hidden '>
+            <div onClick={() => { setNav(!nav) }} className=' cursor-pointer z-10 md:hidden '>
                 {nav ? <FaTimes size={25} className='mr-10' /> : <FaBars size={25} className='mr-10' />}
             </div>
 

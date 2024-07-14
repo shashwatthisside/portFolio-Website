@@ -22,7 +22,7 @@ const Projects = () => {
     };
 
     return (
-        <div name='projects' className='bg-gradient-to-b from-black via-black to-gray-800 h-[1000px] py-24 text-white w-full'>
+        <div name='projects' className='bg-gradient-to-b from-black via-black to-gray-800 h-[1000px] py-32 text-white w-full'>
 
             <div className=' text-5xl pt-24 flex flex-col justify-center items-center font-bold text-red-500'>
                 <h1 className='border-b-4 border-dotted px-6 py-2'>Projects <span className='animate-pulse' >📁</span> </h1>

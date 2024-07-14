@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contactme() {
     return (
-        <div name='Contact' className="flex items-top justify-center min-h-[700px] bg-gradient-to-b from-black via-black to-gray-800 sm:items-center sm:pt-0 py-36">
+        <div name='Contact' className="flex items-top justify-center min-h-[700px] bg-gradient-to-b from-black via-black to-gray-800 sm:items-center sm:pt-0 py-40">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div className="mt-8 overflow-hidden">
                     <div className="grid grid-cols-1 md:grid-cols-2">
