@@ -16,7 +16,7 @@ const Home = () => {
             <div className='flex flex-col mx-auto justify-center items-center h-full md:flex-row w-full '>
 
                 <div className='flex flex-col justify-center text-white w-full h-screen px-4 mt-40 md:ml-36'>
-                    <h1 className='text-xl lg:text-2xl md:xl'>
+                    <h1 className='text-sm lg:text-2xl md:xl'>
                         🙏Namaste, I'm
                         <br />
                         {''}
